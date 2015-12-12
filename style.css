@@ -1,0 +1,356 @@
+
+body{
+background-color: #303030;
+color: white;
+}
+
+h1, h2,h3 {
+font-family: 'Lobster Two', cursive;
+	
+}
+
+.bton{
+position: absolute;
+margin-top: 5%;
+margin-left: 40%;
+border:3px;
+
+}
+
+.bg{
+
+text-align: center;
+background-image: url("social.png");
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 750px;
+}
+
+.alignn{
+	text-align: center;
+
+}
+
+.qwe{
+margin-left: 20%;
+
+
+}
+
+.prawy{
+float: right;
+margin: 20px;
+	
+	
+}
+
+
+.przycisk{
+height:70px;
+width:130px;
+padding:10px;
+background: linear-gradient(to right, black, brown);
+border-radius: 10px;
+vertical-align: middle;
+font-size:16px;
+color:white;	
+margin: 30px;
+float:left;
+}
+
+.przycisk2{
+background: linear-gradient(to right, red, black);	
+		
+}
+
+
+#pole{
+margin: 0 auto;
+width: 800px;
+
+
+		
+}
+
+#poleh{
+min-height:800px;
+margin: 0 auto;
+}
+
+#pole2{
+position: relative;
+min-height: 300px;
+width:600px;
+margin: 0 auto;
+
+}
+
+.obrazek{
+margin: 15px;
+float: left;
+}
+
+.obrazek img{
+width: 100px;
+height: 100px;
+border: 2px solid black;
+
+
+}
+
+#all{
+	
+	
+}
+
+.panel-body{
+	/*background-color: #303030;
+
+	*/
+}
+
+.cent{
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 60%;
+min-height: 500px;
+max-height: 500px;
+margin: auto;
+
+}
+
+a {
+	text-decoration: none !important;
+	color: white;
+
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+#info{
+float:left;
+width:38%;
+}
+#info textarea, input{
+color:black;
+width: 280px;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+#main{
+float:left;
+width:55%;
+margin-left: 5%;
+}
+#main img{
+margin-left: auto;
+margin-right: auto;
+width:100%; 
+height:auto;
+}
+
+#main div{
+margin-left: auto;
+margin-right: auto;
+width:60%;
+}
+
+
+#home{
+text-align: center;
+}
+
+.comments{
+overflow:auto;
+max-height:500px;
+}
+.comment{
+border: 2px solid black;
+margin-top: 7px;
+margin-bottom: 7px;
+overflow: auto;
+max-width: 100%;
+word-wrap: break-word;
+padding: 2px;
+
+}
+
+.comment img{
+float:left;
+
+}
+
+.middle{
+
+}
+
+.right{
+float: right;
+}
+
+.right .left .middle{
+margin: 15px;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+
+.board{
+text-align: center;
+margin-left: auto;
+margin-right: auto;	
+width: 40%;
+
+}
+
+.board textarea{
+
+
+}
+
+.post{
+padding: 4px;
+border: 2px solid #ccc;
+margin-left: auto;
+margin-right: auto;	
+width: 60%;
+
+}
+
+.post .comment{
+
+} 
+
+.komentarz{
+display: none;
+clear:both;
+
+}
+
+.forma{
+
+}
+
+.forma textarea, input{
+color:black;
+width: 280px;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+.nonone{
+	display: block;
+}
+
+
+
+ #zmnick, #zmhaslo, #zmemail, #zmprofilowe, #ustawienia, #nick, #haslo, #email, #profilowe{
+text-align: center;
+font-size: 12px;
+color: white;
+border: 2px solid #333;
+border-radius: 20px;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+padding: 12px;
+background-color: black;
+}
+
+#zmustawienia, #zmnick, #zmhaslo, #zmemail, #zmprofilowe{
+display: none;
+
+}
+
+
+
+
+
+
+
+/* hardware accelatator class */  
+  .trans3d
+  {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform-style: preserve-3d;
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform-style:preserve-3d;
+    -ms-transform: translate3d(0, 0, 0);
+    transform-style:preserve-3d;
+    transform: translate3d(0, 0, 0);
+
+    /*-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility:hidden;
+    backface-visibility:hidden;*/
+  }
+  
+  #contentContainer
+  {
+    position:absolute;
+    margin-left:-500px;
+    margin-top:-500px;
+    left:50%;
+    top:50%;
+    width:1000px;
+    height:1000px;
+  }
+  
+  #carouselContainer
+  {
+    position:absolute;
+    margin-left:-500px;
+    margin-top:-500px;
+    left:50%;
+    top:50%;
+    width:1000px;
+    height:1000px;
+  }
+  
+  .carouselItem
+  {
+    width:320px;
+    height:130px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-160px;
+    margin-top:-90px;
+    visibility:hidden;
+  }
+  
+  .carouselItemInner
+  {
+    width:320px;
+    height:130px;
+    position:absolute;
+    background-color:rgba(255, 255, 255, .75);
+    border:10px solid rgba(255, 255, 255, .5);
+    color:aqua;
+    font-size:72px;
+    left:50%;
+    top:50%;
+    margin-left:-160px;
+    margin-top:-90px;
+    text-align:center;
+    padding-top:50px;
+    
+  }
+
+  .message{
+    margin: 7px;
+    padding: 7px;
+    width: 300px;
+    overflow: auto;
+    word-break: keep-all;
+  }
